@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIMBER | Generador de Colores</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="top-bar">
+    <h1>LIMBER</h1>
+    <p>Generador Profesional de Colores</p>
+</header>
+
+<main class="app">
+    <div class="color-box" id="colorBox">
+        <span id="colorHex">#1ABC9C</span>
+    </div>
+
+    <div class="buttons">
+        <button id="generateBtn">🎨 Generar Color</button>
+        <button id="copyBtn">📋 Copiar</button>
+        <button id="clearBtn">🗑 Limpiar Historial</button>
+    </div>
+
+    <div class="info">
+        <p><strong>RGB:</strong> <span id="rgbText"></span></p>
+        <p><strong>HSL:</strong> <span id="hslText"></span></p>
+    </div>
+
+    <section class="history">
+        <h2>Historial</h2>
+        <div id="historyGrid"></div>
+    </section>
+</main>
+
+<div id="toast">Copiado ✔</div>
+
+<script src="script.js"></script>
+</body>
+</html>
